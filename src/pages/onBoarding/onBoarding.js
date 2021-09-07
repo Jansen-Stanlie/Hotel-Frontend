@@ -44,7 +44,12 @@ class OnBoarding extends Component {
             paddingBottom: 40,
           }}>
           {/* button */}
-          <Tombol title="Continue" />
+          <Tombol
+            title="Continue"
+            onPress={() => {
+              this.props.navigation.replace('MainApp');
+            }}
+          />
         </View>
       </View>
     );

@@ -10,7 +10,13 @@ class ImageSlider extends Component {
     super(props);
     this.state = {
       images: [Slider1, Slider2, Slider3],
+      stars: 3.5,
     };
+  }
+  onStarRatingPress(rating) {
+    this.setState({
+      starCount: rating,
+    });
   }
   render() {
     return (
@@ -24,6 +30,9 @@ class ImageSlider extends Component {
           dotStyle={styles.dotStyle}
           imageLoadingColor={COLORS.primary}
         />
+        {/* <View style={styles.star}>
+          <StarRatings star={this.state.stars} />
+        </View> */}
       </View>
     );
   }
@@ -44,5 +53,10 @@ const styles = StyleSheet.create({
     width: 10,
     height: 5,
     borderRadius: 6,
+  },
+  star: {
+    position: 'absolute',
+    marginTop: 350,
+    marginLeft: 200,
   },
 });

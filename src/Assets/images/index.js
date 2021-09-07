@@ -10,7 +10,7 @@ import Person from './person.jpg';
 import Slider1 from './Slider1.jpg';
 import Slider2 from './Slider2.jpg';
 import Slider3 from './Slider3.jpg';
-
+import LogoHotels from './Logo-Hotel.png';
 export {
   House1,
   House2,
@@ -23,5 +23,6 @@ export {
   Person,
   Slider1,
   Slider2,
+  LogoHotels,
   Slider3,
 };
