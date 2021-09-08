@@ -47,7 +47,7 @@ class OnBoarding extends Component {
           <Tombol
             title="Continue"
             onPress={() => {
-              this.props.navigation.replace('MainApp');
+              this.props.navigation.replace('Login');
             }}
           />
         </View>

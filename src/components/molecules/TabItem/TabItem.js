@@ -18,9 +18,6 @@ const TabItem = ({isFocused, onLongPress, onPress, label}) => {
     if (label === 'Home') {
       return isFocused ? <HotelActive /> : <Hotel />;
     }
-    if (label === 'Menu') {
-      return isFocused ? <MenuActive /> : <Menu />;
-    }
     if (label === 'Profile') {
       return isFocused ? <ProfileActive /> : <Profile />;
     }

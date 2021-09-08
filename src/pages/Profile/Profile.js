@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {View, Text} from 'react-native';
-class Menu extends Component {
+class Profile extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -8,10 +8,10 @@ class Menu extends Component {
   render() {
     return (
       <View>
-        <Text>Menu</Text>
+        <Text>Profile</Text>
       </View>
     );
   }
 }
 
-export default Menu;
+export default Profile;

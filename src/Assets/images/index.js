@@ -11,6 +11,8 @@ import Slider1 from './Slider1.jpg';
 import Slider2 from './Slider2.jpg';
 import Slider3 from './Slider3.jpg';
 import LogoHotels from './Logo-Hotel.png';
+import Payment from './Payment.png';
+import HotelLogo from './Hotel.svg';
 export {
   House1,
   House2,
@@ -25,4 +27,6 @@ export {
   Slider2,
   LogoHotels,
   Slider3,
+  Payment,
+  HotelLogo,
 };
